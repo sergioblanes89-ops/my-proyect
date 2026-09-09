@@ -1,6 +1,9 @@
 def run(u: list, v: list) -> float | None:
-    # TODO
-    return dprod
+    if len(u) != len(v):
+        return None
+
+    return sum(i * j for i, j in zip(u, v)) 
+    
 
 
 # DO NOT TOUCH THE CODE BELOW
