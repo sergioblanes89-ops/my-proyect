@@ -1,5 +1,6 @@
 def run(xmin: int, xmax: int) -> list:
-    # TODO
+    intervalo = list(range(xmin, xmax+1))
+    values = [3 * v1 + 2 for v1 in intervalo]
     return values
 
 
